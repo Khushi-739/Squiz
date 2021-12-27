@@ -1,0 +1,425 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('d.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 2px;
+  padding-top: 0px;
+  background-color: black;
+}
+header{
+  display: inline-block;
+  position: absolute;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 80px;
+  width: 100%;
+  border-color: black;
+  background-color: black;
+  color: grey;
+  box-shadow: -20px 5px 30px grey;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+header:hover{
+  opacity: 1.0;
+}
+header .nav{
+  position: relative;
+  display: flex;
+  font-size: 55px;
+  color: grey;
+  font-family: 'Creepster', cursive;
+  letter-spacing: 6px;
+}
+header .nav li{
+  text-align: right;
+  float: right;
+  color: black;
+  margin: -45px 45px;
+  list-style: none;
+  word-wrap: normal;
+}
+a{
+  margin: 0px 9px;
+  margin-right: 0px;
+  float: right;
+  word-spacing: 20px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  
+}
+a:hover{
+  color: #ff8080;
+  text-decoration: none;
+}
+.title{
+  float: left;
+  text-align: left;
+  position: absolute;
+  margin: 200px 120px;
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  opacity: 0.90;
+  font-family: 'Special Elite',cursive;
+}
+.title:hover{
+  opacity: 0.99;
+  color: red;
+}
+.pp{
+  margin: 100px 0px;
+}
+.slog{
+  float: left;
+  text-align: left;
+  position: absolute;
+  margin: 300px 120px;
+  font-size: 45px;
+  color: black;
+  text-shadow: -2px 0px 8px grey;
+  opacity: 0.65;
+  font-family: 'Metal Mania', cursive;
+}
+
+.slog:hover{
+  opacity: 3.0;
+  color: black;
+}
+.deco{
+  margin-top: -70px;
+}
+.line{
+  border-left: solid red;
+  height: 320px;
+  border-width: 4px;
+  margin: 25px 80px;
+}
+.square{
+  width: 25px;
+  height: 25px;
+  background:  #ff0157;
+  box-shadow: 0 0 3px #FF0000;
+  margin: -10px 70px;
+  margin-top: 50px;
+ animation: example 10s infinite;
+}
+
+@keyframes example {
+0%  {width: 20px;}
+5%  {height: 20px;}
+10% {background: #ff0157;}
+15% {border-radius: 50%;}
+20% {background-color: #B64957;}
+25% {background-color: #cf5f6e;}
+30% {background-color: #d26977;}
+35% {background-color: #db8692;}
+40% {background-color: #e5a9b1;}
+45% {background-color: #edc3c9;}
+50% {background-color: #e5a9b1;}
+55% {background-color: #db8692;}
+60% {background-color: #d26977;}
+65% {background-color: #cf5f6e;}
+70% {background-color: #B64957;}
+75% {background-color: red;}
+80% {width: 20px;}
+85% {height: 20px;}
+90% {background: #ff0157;}
+95% {border-radius: 50%;}
+}
+.ab{
+  opacity: 0.90;
+  height: 460px;
+  width: 760px;
+  box-shadow: 0 0 20px red;
+  margin: -70px;
+  margin-top: -3500px;
+ margin-left: 2px;
+}
+.ab:hover{
+  opacity: 2;
+  box-shadow: 0 0 20px grey;
+}
+.bc{
+  background-color: black;
+  height: 79vh;
+  width: 201vh;
+  box-shadow: 0 0 20px red;
+  margin-top: 30px;
+}
+.intro{
+  color: red;
+  text-align: right;
+  margin:-4px 30px;
+}
+.about{
+  color: white;
+  font-size: 50px;
+  font-variant: small-caps;
+  word-spacing: 3px;
+  text-shadow: 0 0 4px red;
+  font-family: 'Metal Mania', cursive;
+  margin-right: 30px;
+}
+.ot{
+  color: white;
+  font-size: 50px;
+  font-variant: small-caps;
+  word-spacing: 3px;
+  text-shadow: 0 0 4px red;
+  font-family: 'Metal Mania', cursive;
+  letter-spacing: 2px;
+  margin: -20px 30px;
+}
+.cre{
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-right: 100px;
+  margin: 15px;
+}
+.best{
+  color: salmon;
+  font-size: 30px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+  margin: 25px;
+  
+
+}
+.pc{
+  margin: -50px 70px;
+  max-height: 60px;
+  height: 60px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.pc:hover{
+ opacity: 0.99;
+ color: red;
+ height: 900px;
+}
+.gc{
+margin: -50px 180px;
+max-height: 600px;
+height: 60px;
+transition: all 0.3s ease-out;
+text-decoration: none;
+}
+.char{
+  min-height: 100vh;
+  width: 200%;
+  scroll: smooth;
+  background-color: black;
+  margin-top: 50px;
+}
+.maybe{
+  text-align: center;
+ padding: 0px;
+  color: white;
+  font-size: 50px;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-family: 'Metal Mania', cursive;
+  animation: may 9s infinite;
+text-shadow: -2px 0px 8px red;
+margin-left: -1400px;
+}
+
+@keyframes may {
+0% {font-size: 52px;}
+20% {color: #B64957;}
+25% {color: #cf5f6e;}
+30% {color: #d26977;}
+35% {color: #db8692;}
+40% {color: #e5a9b1;}
+45% {color: #edc3c9;}
+50% {color: #e5a9b1;}
+55% {color: #db8692;}
+60% {color: #d26977;}
+65% {color: #cf5f6e;}
+70% {color: #B64957;}
+75% {color: red;}
+80% {font-size: 52px;}
+85% {text-shadow: -5px -5px 0 red, 5px 5px 0 white;}
+}
+.specs {
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-top: -10px;
+  color: salmon;
+ text-align: center;
+  text-shadow: -2px -2px 0 red , 2px 2px 0 white;
+  opacity: 0.80;
+  margin-left: -1400px;
+}
+.specs:hover{
+  opacity: 1.0;
+  text-shadow: -3px -3px 0 red , 3px 3px 0 white; 
+}
+.denji{
+  border: 3px solid red;
+  height: 150vh;
+  width: 60vh;
+  margin: 38px 10px;
+  box-shadow:0 0 20px red;
+	margin-left: 5px;
+  background-image: url(ur.jpeg);
+}
+.mg{
+  color: red;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+}
+.m{
+  height: 80vh;
+  width: 58vh;
+  margin: 10px 7px;
+}
+.mgs{
+  font-size:20px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.man{
+  color: salmon;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 10px;
+}
+.denji2{
+  border: 3px solid red;
+  height: 150vh;
+  width: 60vh;
+  margin: -1180px 510px;
+  box-shadow:0 0 20px red;
+  background-image: url(ur.jpeg);
+}
+.denji3{
+  border: 3px solid red;
+  height: 150vh;
+  width: 60vh;
+  margin: -640px 1020px;
+  margin-top: 40px;
+  box-shadow:0 0 20px red;
+  background-image: url(ur.jpeg);
+}
+.hpk{
+	height: 90vh;
+  width: 110vh;
+  margin-top: 100vh;
+	margin-left: 89vh;
+	border: 3px solid red;
+	box-shadow: 0 0 20px red;
+}
+.zs{
+	height: 100vh;
+  width: 150vh;
+  margin-top: -10vh;
+	margin-right: 103vh;
+	border: 3px solid red;
+	box-shadow: 0 0 20px red;
+}
+.zss{
+	height: 100vh;
+  width: 127vh;
+  margin-top: -10vh;
+	margin-left: 72vh;
+	border: 3px solid red;
+	box-shadow: 0 0 20px red;
+}
+.kkd{
+	height: 70vh;
+  width: 107vh;
+  margin-top: -20vh;
+	margin-right: 103vh;
+	border: 3px solid red;
+	box-shadow: 0 0 20px red;
+}
+.yz{
+ color: salmon;
+  font-size: 50px;
+font-variant: small-caps;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 11px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 30px;
+	margin-top: 90px;
+  animation: bold 10s infinite;
+}
+.map{
+	background-color: black;
+	height: 80vh;
+	width: 216vh;
+	box-shadow: 0 0 20px red;
+	margin-top: -30px;
+background-color: black;
+}
+.last{
+	color: salmon;
+  font-size: 40px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+	margin-left: 860px;
+	margin-top: -400px;
+}
+p{
+	margin: 24px 0px;
+	line-height: 2;
+}
+.cookie-container{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background: black;
+	color: salmon;
+	transition: 400ms;
+	font-size: 20px;
+	box-shadow: 0 0 20px grey;
+}
+.cookie-container.active {
+  bottom: 0;
+}
+.cookie-btn{
+	display: inline-block;
+  position: absolute;
+  margin: 40px -1300px;
+	padding: 2px;
+  border: 1px solid #ff3377;
+  box-shadow: 2px  0.2px 5px red;
+  border-radius: 5%;
+  opacity: 0.60;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-weight: bold;
+	                            
+}

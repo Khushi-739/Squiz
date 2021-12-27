@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('hck.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 2px;
+  padding-top: 0px;
+  background-color: black;
+}
+header{
+  display: inline-block;
+  position: absolute;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 80px;
+  width: 100%;
+  border-color: black;
+  background-color: black;
+  color: grey;
+  box-shadow: -20px 5px 30px grey;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+header:hover{
+  opacity: 1.0;
+}
+header .nav{
+  position: relative;
+  display: flex;
+  font-size: 55px;
+  color: grey;
+  font-family: 'Creepster', cursive;
+  letter-spacing: 6px;
+}
+header .nav li{
+  text-align: right;
+  float: right;
+  color: black;
+  margin: -45px 45px;
+  list-style: none;
+  word-wrap: normal;
+}
+a{
+  margin: 0px 9px;
+  margin-right: 0px;
+  float: right;
+  word-spacing: 20px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  
+}
+a:hover{
+  color: #ff8080;
+  text-decoration: none;
+}
+.okok{
+	float: left;
+  text-align: left;
+  position: absolute;
+  margin: 350px 120px;
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  opacity: 0.90;
+   font-family: 'Special Elite',cursive;
+}
+.okok:hover{
+	opacity: 1;
+	color: red;
+	font-variant: small-caps;
+}
+.cat{
+	color: red;
+	font-size: 40px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+  margin-top: 700px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.img{
+	float: center;
+	height: 700px;
+	weight: 690px;
+	margin-left: 30px;
+}
+.img2{
+	float: center;
+	height: 700px;
+	weight: 690px;
+	margin-left: 30px;
+}
+.img3{
+	float: center;
+	height: 700px;
+	weight: 690px;
+	margin-left: 1000px;
+	margin-top: -860px;
+}
+.gr{
+	background-color: black;
+	height: 150vh;
+	weight: 216vh;
+	box-shadow: 0 0 20px red;
+	margin-top: -30px;
+}
+.sk{
+	color: red;
+  font-size: 20px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+	font-weight: bold;
+}
+.cat1{
+	color: red;
+	font-size: 40px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+  margin-top: 700px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.img1{
+	float: center;
+	height: 700px;
+	weight: 690px;
+	margin-left: 100px;
+}
+.gr1{
+	background-color: black;
+	height: 150vh;
+	weight: 216vh;
+	box-shadow: 0 0 20px red;
+	margin-top: -690px;
+}
+.sk1{
+	color: red;
+  font-size: 20px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+	font-weight: bold;
+}
+.hs{
+	margin-top: 15px;
+	margin-right: 1350px;
+	color: grey;
+	word-spacing: 2px;
+}
+.last{
+	color: white;
+	margin-top: 50px;
+  text-align: center;
+ padding: 0px;
+  color: white;
+  font-size: 50px;
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  animation: may 9s infinite;
+text-shadow: -2px 0px 8px red;
+margin-right: 350px;
+}
+
+@keyframes may {
+0% {font-size: 51px;}
+20% {color: #B64957;}
+25% {color: #cf5f6e;}
+30% {color: #d26977;}
+35% {color: #db8692;}
+40% {color: #e5a9b1;}
+45% {color: #edc3c9;}
+50% {color: #e5a9b1;}
+55% {color: #db8692;}
+60% {color: #d26977;}
+65% {color: #cf5f6e;}
+70% {color: #B64957;}
+75% {color: red;}
+80% {font-size: 51px;}
+85% {text-shadow: -5px -5px 0 red, 5px 5px 0 white;}
+	}
+.pc{
+	display: block;
+	height: 100px;
+	width: 100px;
+	text-indent: -9999px;
+	margin-top: 40px;
+	color: green;
+}

@@ -1,0 +1,179 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('ssd.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 2px;
+  padding-top: 0px;
+  background-color: black;
+}
+body:hover{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('hhk.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 2px;
+  padding-top: 0px;
+  background-color: black;
+}
+header{
+  display: inline-block;
+  position: absolute;
+  border: 2px solid black;
+  margin-top: -40px;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 80px;
+  width: 100%;
+  border-color: black;
+  background-color: black;
+  color: grey;
+  box-shadow: -20px 5px 30px grey;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+header:hover{
+  opacity: 1.0;
+}
+header .nav{
+  position: relative;
+  display: flex;
+  font-size: 55px;
+  color: grey;
+  font-family: 'Creepster', cursive;
+  letter-spacing: 6px;
+}
+header .nav li{
+  text-align: right;
+  float: right;
+  color: black;
+  margin: -45px 45px;
+  list-style: none;
+  word-wrap: normal;
+}
+a{
+  margin: 0px 9px;
+  margin-right: 0px;
+  float: right;
+  word-spacing: 20px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  
+}
+a:hover{
+  color: #ff8080;
+  text-decoration: none;
+}
+.img{
+  height: 900px;
+  weight: 900px;
+  margin-top: 300px;
+  margin-left: 300px;
+  box-shadow: 0 0 20px red;
+}
+.form{
+  color: #d28d2d;
+  border: 3px solid red;
+  margin-top: -910px;
+  text-align: left;
+  box-shadow: 0 0 20px red;
+  height: 910px;
+  margin-right: 2px;
+  margin-left: 290px;
+  margin-bottom: 2px;
+  width: 1000px;
+}
+.hpp{
+  color: salmon;
+  margin: 400px;
+  margin-top: 160px;
+  margin-left: 500px;
+  text-decoration: none;
+  font-family: 'Big Shoulders Stencil Display' ,cursive;
+  font-weight: bold;
+  font-size: 30px;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  opacity: 0.80;
+}
+.hpp:hover{
+  opacity:3;	
+}
+.skd{
+  font-family: 'Special Elite',cursive;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: -20px;
+  color: #7e0707;
+  animation: may 9s infinite;
+text-shadow: -2px 0px 8px red;
+
+}
+
+@keyframes may {
+0% {font-size: 60px;}
+20% {color: #B64957;}
+25% {color: #cf5f6e;}
+30% {color: #d26977;}
+35% {color: #db8692;}
+40% {color: #e5a9b1;}
+45% {color: #edc3c9;}
+50% {color: #e5a9b1;}
+55% {color: #db8692;}
+60% {color: #d26977;}
+65% {color: #cf5f6e;}
+70% {color: #B64957;}
+75% {color: white;}
+80% {font-size: 60px;}
+85% {text-shadow: -5px -5px 0 red, 5px 5px 0 white;}
+}
+.vrut:hover{
+ text-shadow: 0 0 60px red;
+}
+.butt{
+  display: inline-block;
+  position: absolute;
+  margin-top: 20px;
+  border: 1px solid #ff3377;
+  box-shadow: 2px  0.2px 5px red;
+  border-radius: 5%;
+  opacity: 0.60;
+  background-color: #341d1d;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+.butt:hover{
+  opacity: 10;
+  background-color: #800000;
+  margin: 20px 30px;
+}
+span{
+  color: #ff3377;
+  text-shadow: 2px 0.2px 5px red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+  font-family: 'Special Elite',cursive;
+  text-decoration: none;
+}
+.ho{
+ color: salmon;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Stencil Display' ,cursive;
+  font-weight: bold;
+  font-size: 36px;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  opacity: 0.80;
+  margin-top: 100px;
+  margin-left: 300px;
+  text-shadow: 0 0 20px red;
+}

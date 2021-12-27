@@ -1,0 +1,213 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: scroll;
+  background-image: url('c.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 2px;
+  padding-top: 0px;
+  background-color: black;
+}
+header{
+  display: inline-block;
+  position: absolute;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 80px;
+  width: 100%;
+  border-color: black;
+  background-color: black;
+  color: grey;
+  box-shadow: -20px 5px 30px grey;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+header:hover{
+  opacity: 1.0;
+}
+header .nav{
+  position: relative;
+  display: flex;
+  font-size: 55px;
+  color: grey;
+  font-family: 'Creepster', cursive;
+  letter-spacing: 6px;
+}
+header .nav li{
+  text-align: right;
+  float: right;
+  color: black;
+  margin: -45px 45px;
+  list-style: none;
+  word-wrap: normal;
+}
+a{
+  margin: 0px 9px;
+  margin-right: 0px;
+  float: right;
+  word-spacing: 20px;
+  text-decoration: none;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  
+}
+a:hover{
+  color: #ff8080;
+  text-decoration: none;
+}
+.hello{
+	float: left;
+  text-align: left;
+  position: absolute;
+  margin: 300px 120px;
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 0px 8px red;
+  opacity: 0.90;
+  font-family: 'Special Elite', cursive;
+}
+.vh{
+	font-size: 40px;
+  word-spacing: 2px;
+	font-family: 'Big Shoulders Stencil Display' ,cursive;
+  margin: 500px 120px;
+	color: red;
+	font-weight: bold;
+}
+.e{
+	height: 80vh;
+	weight: 62vh;
+	margin: 10px;
+	margin-top: 10px;
+}
+.ee{
+	background-color: black;
+  height: 170vh;
+  width: 64vh;
+  box-shadow: 0 0 20px red;
+  margin: 10px;
+	margin-top: -240px;
+}
+.xx{
+	color: red;
+  font-size: 16px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+}
+.x{
+	color: salmon;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 10px;
+}
+.e1{
+	height: 80vh;
+	weight: 700vh;
+	margin: 30px;
+	margin-top: 10px;
+}
+.ee1{
+	background-color: black;
+  height: 170vh;
+  width: 64vh;
+  box-shadow: 0 0 20px red;
+  margin: 520px;
+	margin-top: -1300px;
+}
+.xx1{
+	color: red;
+  font-size: 16px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+}
+.x1{
+	color: salmon;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 10px;
+		}
+.e2{
+	height: 80vh;
+	weight: 62vh;
+	margin: 30px;
+	margin-top: 10px;
+}
+.ee2{
+	background-color: black;
+  height: 170vh;
+  width: 64vh;
+  box-shadow: 0 0 20px red;
+  margin: 1032px;
+	margin-top: -1800px;
+}
+.xx2{
+	color: red;
+  font-size: 16px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+}
+.x2{
+	color: salmon;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 10px;
+}
+.yz{
+ color: salmon;
+  font-size: 60px;
+font-variant: small-caps;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 11px red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 100px 30px;
+  animation: bold 10s infinite;
+	}
+.res{
+	color: salmon;
+  font-size: 38px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 5px red;
+  text-align: center;
+  text-transform: uppercase;
+	margin: -10vh 30px;
+}
